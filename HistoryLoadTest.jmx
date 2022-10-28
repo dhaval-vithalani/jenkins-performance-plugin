@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.3" properties="5.0" jmeter="5.0 r1840935">
+<jmeterTestPlan version="2.0" properties="5.0" jmeter="5.0 r1840935">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="History Load Test" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
