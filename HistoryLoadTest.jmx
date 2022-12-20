@@ -83,12 +83,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extract loginToken from response" enabled="true">
-          <stringProp name="JSONPostProcessor.referenceNames">loginToken</stringProp>
-          <stringProp name="JSONPostProcessor.jsonPathExprs">$.loginToken</stringProp>
-          <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-          <stringProp name="Sample.scope">all</stringProp>
-        </JSONPostProcessor>
         <hashTree/>
         <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="turn token into property" enabled="true">
           <stringProp name="filename"></stringProp>
